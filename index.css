@@ -1,0 +1,18 @@
+.Home____________About____________Features______ {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(50, 53, 65);
+    text-transform: uppercase;
+    line-height: 3.667;
+    text-align: right;
+    position: absolute;
+    left: 888.937px;
+    top: 14.998px;
+    z-index: 511;
+  }
+  <svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="629px" height="11px">
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="11px"><tspan font-size="15px" font-family="Roboto" fill="#323541">Home&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;About&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Features&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Project&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Blog&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Contact&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</tspan></text>
+</svg>
