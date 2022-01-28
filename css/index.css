@@ -1,5 +1,5 @@
 .navbar{
-  background-color: #ffffff;
+  background-color: rgb(247, 247, 247);
 }
 .navbar-brand{
   cursor: pointer;
@@ -8,15 +8,24 @@
   color:#df4a43;
 }
  
-body#home{
-  background-color: #ffffff;
+#home{
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 5rem;
   
-
   
 }
   
 
-  
+.BG {
+  background-color: rgb(247, 247, 247);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 900px;
+  z-index: 485;
+}
+ 
 
 .title1 {
   font-size: 18px;
@@ -47,7 +56,30 @@ body#home{
   color: rgb(255, 255, 255);
   cursor: pointer;
   text-transform: capitalize;
+  border-radius: 20px;
  
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+#about{
+
+}
+
+.box{
+  background-image: url(../img/Pattern.png);
+  background-position: top;
+  width: 60%;
+  height: 100%;
   
 }
 
