@@ -83,3 +83,72 @@
   
 }
 
+
+.Icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 9026px;
+  z-index: 410;
+}
+
+.bi-pencil-square {
+  font-size: 27px;
+ font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 114, 20);
+  text-align: center;
+
+ 
+}
+
+
+.bi {
+ padding: 1rem;
+  border-radius: 50%;
+  background-color: rgb(255, 233, 243);
+  opacity: 0.8;
+  width: 70px;
+  height: 70px;
+}
+
+.bi-pencil-square {
+  font-size: 27px;
+ font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 114, 20);
+  text-align: center;
+
+ 
+}
+.bi-subtract {
+  font-size: 27px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(145, 101, 255);
+  text-align: center;
+
+ 
+}
+.bi-headphones {
+  font-size: 27px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(255, 20, 129);
+  text-align: center;
+
+ 
+}
+.bi-file-lock {
+  font-size: 27px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(23, 142, 253);
+  text-align: center;
+
+ 
+}
+
+
+
+#features{
+  margin-bottom: 5rem;
+ 
+}
+
