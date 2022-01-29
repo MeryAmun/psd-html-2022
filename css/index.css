@@ -1,3 +1,8 @@
+body{
+  width: 100%;
+}
+
+
 .navbar{
   background-color: rgb(247, 247, 247);
 }
@@ -16,15 +21,7 @@
 }
   
 
-.BG {
-  background-color: rgb(247, 247, 247);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1920px;
-  height: 900px;
-  z-index: 485;
-}
+
  
 
 .title1 {
@@ -42,7 +39,7 @@
   line-height: 1.167;
   text-align: right;
   position: absolute;
-  left: 388.937px;
+  
   top: 391.708px;
   z-index: 494;
 }
@@ -62,6 +59,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  body{
+    width: 100%;
+  }
   .container1 {
     display: flex;
     flex-direction: column;
@@ -175,7 +175,7 @@ font-size: 30px;
   
 }
 
-#projects, #facts{
+#projects, #facts, #testimonials{
   margin-bottom: 4rem;
 }
 
@@ -225,4 +225,8 @@ font-size: 30px;
 
 .container4 h5{
   margin-top: 1rem;
+}
+
+.titlea{
+  color: rgb(255, 114, 20);;
 }
