@@ -1,6 +1,7 @@
 body{
   width: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 
@@ -32,18 +33,7 @@ body{
   line-height: 3.889;
  
 }
-.h1 {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(17, 46, 65);
-  font-weight: bold;
-  line-height: 1.167;
-  text-align: right;
-  position: absolute;
-  
-  top: 391.708px;
-  z-index: 494;
-}
+
 
 
 .btn {
@@ -59,24 +49,7 @@ body{
   
 }
 
-@media only screen and (max-width: 600px) {
-  body{
-    width: 100%;
-  }
-  .container1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .container2 {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .facts{
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-  }
-}
+
 
 
 .box{
@@ -88,14 +61,6 @@ body{
 }
 
 
-.Icon {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1920px;
-  height: 9026px;
-  z-index: 410;
-}
 
 .bi-pencil-square {
   font-size: 27px;
@@ -191,6 +156,11 @@ font-size: 30px;
   margin-right: 1rem;
 }
 
+.header4{
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
 .text3{
   font-size: 12px;
 }
@@ -199,7 +169,7 @@ font-size: 30px;
 .container4 h5 {
   font-size: 15px;
   font-family: "Roboto";
-  color: rgb(255, 255, 255);
+  color: rgb(255, 114, 20);
 
   
 }
@@ -217,12 +187,7 @@ font-size: 30px;
    background-color: rgb(255, 114, 20);
    opacity: 0.8;
  }
-.container4{
-  position: relative;
-  top: -15rem;
-  left: 15rem;
- 
-}
+
 
 .container4 h5{
   margin-top: 1rem;
@@ -234,4 +199,68 @@ font-size: 30px;
 input, textarea{
   margin-top: 2rem;
  
+}
+
+
+
+.prefooter{
+  margin-top: 4rem;
+  background-color: rgb(22, 43, 69);
+  height: 300px;
+}
+.text3 {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+ 
+  
+}
+
+
+.footer {
+  background-color: rgb(16, 35, 58);
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(136, 136, 136);
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body{
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .facts{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
 }
