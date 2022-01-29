@@ -158,7 +158,15 @@
 .bi-arrow-right{
 font-size: 30px;
 }
+.bi-arrow-left{
+  font-size: 30px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  }
 
+  .right{
+    margin-left: -.5rem;
+  }
 .header2 {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
@@ -167,7 +175,7 @@ font-size: 30px;
   
 }
 
-#projects{
+#projects, #facts{
   margin-bottom: 4rem;
 }
 
@@ -186,3 +194,35 @@ font-size: 30px;
   font-size: 12px;
 }
 
+
+.container4 h5 {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+
+  
+}
+
+
+
+.bi-play{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+ 
+}
+.biii {
+  padding: 15px;
+   border-radius: 50%;
+   background-color: rgb(255, 114, 20);
+   opacity: 0.8;
+ }
+.container4{
+  position: relative;
+  top: -15rem;
+  left: 15rem;
+ 
+}
+
+.container4 h5{
+  margin-top: 1rem;
+}
