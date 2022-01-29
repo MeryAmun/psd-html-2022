@@ -175,7 +175,7 @@ font-size: 30px;
   
 }
 
-#projects, #facts, #testimonials{
+#projects, #facts, #testimonials, #team, #blog{
   margin-bottom: 4rem;
 }
 
@@ -227,6 +227,6 @@ font-size: 30px;
   margin-top: 1rem;
 }
 
-.titlea{
+.titlea , .bi-chat-left, .bi-heart{
   color: rgb(255, 114, 20);;
 }
