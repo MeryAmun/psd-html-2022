@@ -1,5 +1,6 @@
 body{
   width: 100%;
+  margin: 0;
 }
 
 
@@ -175,7 +176,7 @@ font-size: 30px;
   
 }
 
-#projects, #facts, #testimonials, #team, #blog{
+#projects, #facts, #testimonials, #team, #blog, #contact{
   margin-bottom: 4rem;
 }
 
@@ -229,4 +230,8 @@ font-size: 30px;
 
 .titlea , .bi-chat-left, .bi-heart{
   color: rgb(255, 114, 20);;
+}
+input, textarea{
+  margin-top: 2rem;
+ 
 }
