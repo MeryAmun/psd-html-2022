@@ -1,5 +1,5 @@
 body{
-  width: auto;
+  width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
@@ -151,7 +151,7 @@ font-size: 30px;
 
 .facts {
   background-color: rgb(22, 43, 69);
-  height: 150px;
+ 
 }
 .header3{
   font-size: 2rem;
@@ -199,7 +199,7 @@ z-index: 2;
 
 .container5{
 
-left: 120px;
+left: 121px;
 width: 550px;
 height:400px;
   z-index: 1;
@@ -228,10 +228,8 @@ input, textarea{
 
 
 .prefooter{
-  margin-top: 4rem;
   background-color: rgb(22, 43, 69);
-  height: 300px;
-  margin-left: 0;
+  
 }
 .text3 {
   font-size: 15px;
@@ -243,6 +241,7 @@ input, textarea{
 
 
 .footer {
+ 
   background-color: rgb(16, 35, 58);
   font-size: 15px;
   font-family: "Roboto";
