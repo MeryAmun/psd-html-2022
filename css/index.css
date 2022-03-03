@@ -167,21 +167,6 @@ font-size: 30px;
   font-size: 12px;
 }
 
-.container4{
-position: absolute;
-left: 400px;
-z-index: 2;
-}
-
-.container4, h5{
-  font-size: 14px;
- font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  margin-top: .7rem;
-}
-
-
-
 .bi-play{
   font-size: 25px;
   color: rgb(255, 255, 255);
@@ -189,10 +174,18 @@ z-index: 2;
  
 }
 .biii {
-  padding: 13px;
-   border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
    background-color: rgb(255, 114, 20);
    opacity: 0.8;
+   font-size: 3rem;
+   cursor: pointer;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
  }
 
@@ -205,16 +198,37 @@ height:400px;
   z-index: 1;
 }
 
+.flex__center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app__video{
+  height: 100%;
+  position: relative;
+  margin-bottom: 3rem;
+}
 .overlay {
   background-color: rgb(22, 43, 69);
   opacity: 0.702;
   position: absolute;
- left:167.8px;
-  width: 550px;
-  height:400px;
-  z-index: 2;
+ inset: 0;
 }
 
+.overlay_circle{
+  
+ 
+  
+  
+}
+
+.overlay_circle h5{
+  font-size: 14px;
+ font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: .7rem;
+}
 
 
 .titlea , .bi-chat-left, .bi-heart{
@@ -311,16 +325,7 @@ input, textarea{
       z-index: 1;
     }
     
-    .overlay {
-      display: none;
-      background-color: rgb(22, 43, 69);
-      opacity: 0.702;
-      position: absolute;
-     left:38.3px;
-      width: 300px;
-      height:300px;
-      z-index: 2;
-    }
+    
     .container3{
       margin-bottom: 1rem;
     }
